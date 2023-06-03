@@ -1,0 +1,16 @@
+#counselling for B.tech Colleges 
+#this was the initial step 
+rank = int(input("enter the rank"))
+if (rank <= 1000):
+  print ("college 1 is assigned")
+  lowerlimt=1000
+  upperlimt=10000
+  if (lowerlimt<= rank <= upperlimt):
+    print ("college 2 is assigned ")
+
+    lowerlimt=10001
+    upperlimt=40000
+    if (lowerlimt<= rank <= upperlimt):
+      print ("college 3 is assigned ")
+else:
+  print ("sorry no Colleges avaliable for your rank Try again")
